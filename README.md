@@ -5,8 +5,9 @@
 
 Yes, another one! And I'll tell you why. Frank is also known as Frankenstein because it's not beautiful or aesthetic (I like the look a lot, though), but is reduced to sheer fun. There is no plastic that is not really necessary. This makes Frank very lightweight, but also quick to print and easy to repair. The simplicity of the duct allows for a very wide range of hotends and extruders, as there is no plastic to get in the way. With only 4 printed parts you get a new powerful duct for your Ender 3!
 
-:-------------------------:|:-------------------------:
-![](Pictures/2.1.png)  |  ![](Pictures/1.1.png)
+<img src="Pictures/frankenstein.png" width="49%"/> <img src="Pictures/2.1.png" width="49%"/>
+
+---
 
 ### Supported Hotends and Extruders
 
@@ -30,6 +31,8 @@ This section lists all compatible Hotends and Extruder. If you're missing your h
     3. Róbert's - [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/)
     4. Bondtech - [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
     5. Triangelab - [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+
+---
 
 ### Bill of Material: Hardware you need
 <table>
@@ -83,6 +86,9 @@ This section lists all compatible Hotends and Extruder. If you're missing your h
     </tr>
 </table>
 
+
+---
+
 ### STL's (3mf) you need:
 The STL folder has 3 sub folders which stores the files you need to build this duct:
     - **CommonAll**: Printed Parts that are common with all configurations. Currently this is only the BL-Touch mount.
@@ -97,17 +103,36 @@ The Extras folder contain some specials you can add to the fan duct if you want,
 #### User Mods
 This folder contain mods made by you. You can submit your modifications via a pull request. Click here (added soon) to learn about the process and rules of a Pull request.
 
+### Credits
+Thanks to all the awesome Users from my Discord that tested this duct over and over angain. Special thanks to Oldcrazy for all his ideas and mods. Thanks to Thomas for the name.
+
+---
+
 ### Limitations
 Even though this Duct has a very high range of supported Hotends and extruders, there're still some limitations, due to the design or the time I had spent on this design
-    1. Fit's only the stock plate
-        **MGN:**
-            A MGN/Linear Rail version was mighly reqested on my Discord already and this will be added soonish. My plan is to add an adapter plate which let you use the same duct parts. I will add this as soon as I had time to work on it.
-        **Non-Ender 3 Printers:**
-            This Duct resuses the hotend-mounting-standoffs aand the two M3-thread holes on the left where the stock cover is attached to. If your printer doesn't have these you can get a x-plate like the Ender 3 one very cheap in [Ali](aliexpress.com/item/1005001315276573.html?) or with some luck second hand locally.
-            Please note that eveen the Ender 3 S1 uses a different plate which doesn't have the required holes.
-    2. No support for Mosquito or mosquito clone
-        Aside the fact I want support Slice for [reasons](https://www.reddit.com/r/VORONDesign/comments/rpyqpq/voronslice_beef/), the heaterblock of the Mosquito is just too big, and won't allow any cooling from the front (the duct would be way too far away for any cooling effect). 
-    3. Two side cooling
-        I already got some requests for a dual 5015 version, which would allow 3 or 4 sided cooling, but in my opionon that would be an overkill. With the speeds we reach with the Ender 3 a single 5015 is more than enough. I want to explain why:
-            a) Print speeds: I know fast printing got very popular, but even with 300 or 400mm/sec print speed the single 5015 is more than enough. Even though you print with high speeds, external and briging parameters are still kinda slow. We all fo fast on the infill but not for the externals because that results in poor quality and printing tolerances. Less cooling on the infill also means better layer adheasion.
-            b) 5015 ≠ 5015: There're many brands of 5015 fans out there. When you look for a 5015 on Amazon Winsinn is probably the first result you get. Before you install a dual 5015 with two Winsinn fans, just build a proper single 5015 setup. Winsinn fans are very weak, while Delta or Sunonfans are pretty much the best you can get. Somewhere inbetween are fans by GDstime. In the end you have to pick a fan that fits your requirements. I print ABS only so I don't need much cooling and also use a Winsinn. If you print a lot of PLA you should consider one of the just named brands.
+
+#### 1. Fit's only the stock plate
+    
+##### a) MGN:</dt>
+- A MGN/Linear Rail version was mighly reqested on my Discord already and this will be added soonish. My plan is to add an adapter plate which let you use the same duct parts. I will add this as soon as I had time to work on it.
+            
+##### b) Non-Ender 3 Printers:
+- This Duct resuses the hotend-mounting-standoffs aand the two M3-thread holes on the left where the stock cover is attached to. If your printer doesn't have these you can get a x-plate like the Ender 3 one very cheap in [Ali](aliexpress.com/item/1005001315276573.html?) or with some luck second hand locally.
+Please note that eveen the Ender 3 S1 uses a different plate which doesn't have the required holes.
+            
+            
+#### 2. No support for Mosquito or mosquito clone
+
+- Aside the fact I want support Slice for [reasons](https://www.reddit.com/r/VORONDesign/comments/rpyqpq/voronslice_beef/), the heaterblock of the Mosquito is just too big, and won't allow any cooling from the front (the duct would be way too far away for any cooling effect). 
+        
+#### 3. Two side cooling
+    
+- I already got some requests for a dual 5015 version, which would allow 3 or 4 sided cooling, but in my opionon that would be an overkill. With the speeds we reach with the Ender 3 a single 5015 is more than enough. I want to explain why:
+        
+##### a) Print speeds:
+
+- I know fast printing got very popular, but even with 300 or 400mm/sec print speed the single 5015 is more than enough. Even though you print with high speeds, external and briging parameters are still kinda slow. We all fo fast on the infill but not for the externals because that results in poor quality and printing tolerances. Less cooling on the infill also means better layer adheasion.
+            
+##### b) 5015 ≠ 5015:
+
+- There're many brands of 5015 fans out there. When you look for a 5015 on Amazon Winsinn is probably the first result you get. Before you install a dual 5015 with two Winsinn fans, just build a proper single 5015 setup. Winsinn fans are very weak, while Delta or Sunonfans are pretty much the best you can get. Somewhere inbetween are fans by GDstime. In the end you have to pick a fan that fits your requirements. I print ABS only so I don't need much cooling and also use a Winsinn. If you print a lot of PLA you should consider one of the just named brands.
