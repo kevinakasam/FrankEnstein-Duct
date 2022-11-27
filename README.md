@@ -15,22 +15,25 @@ This section lists all compatible Hotends and Extruder. If you're missing your h
 
 #### Hotends
     1.  Stock Mk8 
-    2.  Phaetus - [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/) (6 anf 7 fin version (see below))
-    3.  Phaetus - [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/)
-    4.  Phaetus - [Dragon](https://www.phaetus.com/dragon-st/) (Standard Flow and High Flow)
-    5.  Phaetus - [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend)
-    6.  E3D - [V6](https://e3d-online.com/products/v6-all-metal-hotend)
-    7.  E3D - [V6 Vulcano](https://e3d-online.com/products/volcano-hotend)
-    8.  E3D - [Revo 6](https://e3d-online.com/products/revo-six)
-    9.  E3D - [Revo Micro](https://e3d-online.com/products/revo-micro)
-    10. E3D - [Revo Voron](https://e3d-online.com/products/revo-voron)
+    2.  Phaetus - Dragonfly BMS (6 anf 7 fin version (see below))
+    3.  Phaetus - Dragonfly BMO
+    4.  Phaetus - Dragon (Standard Flow and High Flow)
+    5.  Phaetus - Dropeffect XG
+    6.  E3D - V6
+    7.  E3D - V6 Vulcano
+    8.  E3D - Revo 6
+    9.  E3D - Revo Micro
+    10. E3D - Revo Voron
+Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/), [Dragon](https://www.phaetus.com/dragon-st/), [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend), [V6](https://e3d-online.com/products/v6-all-metal-hotend), [V6 Vulcano](https://e3d-online.com/products/volcano-hotend), [Revo 6](https://e3d-online.com/products/revo-six), [Revo Micro](https://e3d-online.com/products/revo-micro), [Revo Voron](https://e3d-online.com/products/revo-voron)
 
 #### Extruders
     1. Bowden extruders (stock or any replacement you're using)
-    2. Annex's - [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
-    3. Róbert's - [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/)
-    4. Bondtech - [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
-    5. Triangelab - [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+    2. Annex's - Sherpa Mini
+    3. Róbert's - Orbiter V2.0
+    4. Bondtech - LGX Lite
+    5. Triangelab - TBG Lite
+
+Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
 
 ---
 
