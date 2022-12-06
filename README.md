@@ -9,31 +9,39 @@ Yes, another one! And I'll tell you why. Frank is also known as Frankenstein bec
 
 ---
 
-### Supported Hotends and Extruders
+### Supported Hotends, Extruders and additional Hardware
 
 This section lists all compatible Hotends and Extruder. If you're missing your hotend or extruder, feel free to post a request for that on my Discord. Let us create the first Fan Duct, that support <i>almost*</i> **everything**! (*Please not the Limitations section below)
 
 #### Hotends
     1.  Stock Mk8 
-    2.  Phaetus - Dragonfly BMS (6 anf 7 fin version (see below))
-    3.  Phaetus - Dragonfly BMO
-    4.  Phaetus - Dragon (Standard Flow and High Flow)
+    2.  Phaetus - Dragonfly BMS     (6 anf 7 fin version (see below))
+    3.  Phaetus - Dragonfly BMO     (with V6 mount, rigid mount will be added soon)
+    4.  Phaetus - Dragon            (Standard Flow and High Flow)
     5.  Phaetus - Dropeffect XG
     6.  E3D - V6
     7.  E3D - V6 Vulcano
     8.  E3D - Revo 6
     9.  E3D - Revo Micro
     10. E3D - Revo Voron
-Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/), [Dragon](https://www.phaetus.com/dragon-st/), [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend), [V6](https://e3d-online.com/products/v6-all-metal-hotend), [V6 Vulcano](https://e3d-online.com/products/volcano-hotend), [Revo 6](https://e3d-online.com/products/revo-six), [Revo Micro](https://e3d-online.com/products/revo-micro), [Revo Voron](https://e3d-online.com/products/revo-voron)
+    11. Haldis - Red Lizard         (with stock parts)
+    
+Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/), [Dragon](https://www.phaetus.com/dragon-st/), [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend), [V6](https://e3d-online.com/products/v6-all-metal-hotend), [V6 Vulcano](https://e3d-online.com/products/volcano-hotend), [Revo 6](https://e3d-online.com/products/revo-six), [Revo Micro](https://e3d-online.com/products/revo-micro), [Revo Voron](https://e3d-online.com/products/revo-voron), [Red Lizard](https://aliexpress.com/item/1005003366657998.html)
 
 #### Extruders
-    1. Bowden extruders (stock or any replacement you're using)
-    2. Annex's - Sherpa Mini
+    1. Bowden extruders             (stock or any replacement you're using)
+    2. Annex's - Sherpa Mini        (With adapter also Sherpa Micro)
     3. Róbert's - Orbiter V2.0
     4. Bondtech - LGX Lite
     5. Triangelab - TBG Lite
 
-Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder), [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+
+#### Hardware
+    1. BL-Touch and Clones
+    2. ADXL345-Accelerometer (for Klipper and RepRap) 
+
+Hardware links: [BL-Touch](https://www.antclabs.com/bltouch-v3), [ADXL345 Sensor (Klipper)](https://www.klipper3d.org/Measuring_Resonances.html)
 
 ---
 
@@ -89,7 +97,6 @@ Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/S
     </tr>
 </table>
 
-
 ---
 
 ### STL's (3mf) you need:
@@ -117,7 +124,7 @@ Even though this Duct has a very high range of supported Hotends and extruders, 
 #### 1. Fit's only the stock plate
     
 ##### a) MGN:</dt>
-- A MGN/Linear Rail version was mighly reqested on my Discord already and this will be added soonish. My plan is to add an adapter plate which let you use the same duct parts. I will add this as soon as I had time to work on it.
+- A MGN/Linear Rail version was highly reqested on my Discord already and this will be added soonish. My plan is to add an adapter plate which let you use the same duct parts. I will add this as soon as I had time to work on it.
             
 ##### b) Non-Ender 3 Printers:
 - This Duct resuses the hotend-mounting-standoffs aand the two M3-thread holes on the left where the stock cover is attached to. If your printer doesn't have these you can get a x-plate like the Ender 3 one very cheap in [Ali](aliexpress.com/item/1005001315276573.html?) or with some luck second hand locally.
