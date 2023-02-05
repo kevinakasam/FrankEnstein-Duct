@@ -20,13 +20,13 @@ This section lists all compatible Hotends and Extruder. If you're missing your h
     4.  Phaetus - Dragon            (Standard Flow and High Flow)
     5.  Phaetus - Dropeffect XG
     6.  Phaetus - Rapido HF/UHF     (not public yet but available on my Discord)
-    6.  E3D - V6
-    7.  E3D - V6 Vulcano
-    8.  E3D - Revo 6
-    9.  E3D - Revo Micro
-    10. E3D - Revo Voron
-    11. Haldis - Red Lizard         (with stock version)
-    12. Creality - Spider Hotend    (with BMS 7 version)
+    7.  E3D - V6
+    8.  E3D - V6 Vulcano
+    9.  E3D - Revo 6
+    10.  E3D - Revo Micro
+    11. E3D - Revo Voron
+    12. Haldis - Red Lizard         (with stock version)
+    13. Creality - Spider Hotend    (with BMS 7 version)
     
 Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/), [Dragon](https://www.phaetus.com/dragon-st/), [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend), [V6](https://e3d-online.com/products/v6-all-metal-hotend), [V6 Vulcano](https://e3d-online.com/products/volcano-hotend), [Revo 6](https://e3d-online.com/products/revo-six), [Revo Micro](https://e3d-online.com/products/revo-micro), [Revo Voron](https://e3d-online.com/products/revo-voron), [Red Lizard](https://aliexpress.com/item/1005003366657998.html)
 
@@ -146,7 +146,8 @@ Please note that eveen the Ender 3 S1 uses a different plate which doesn't have 
 
 - There're many brands of 5015 fans out there. When you look for a 5015 on Amazon Winsinn is probably the first result you get. Before you install a dual 5015 with two Winsinn fans, just build a proper single 5015 setup. Winsinn fans are very weak, while Delta or Sunonfans are pretty much the best you can get. Somewhere inbetween are fans by GDstime. In the end you have to pick a fan that fits your requirements. I print ABS only so I don't need much cooling and also use a Winsinn. If you print a lot of PLA you should consider one of the just named brands.
 
-Changelog:
+### Changelog:
+
 05.02.2023: Some fixes:
     - 5015 holder got an additinal hole to fit the Ender 3 V2 mounting holes
     - Overhang on the 5015 holder is less steep now, makes printing easier.
