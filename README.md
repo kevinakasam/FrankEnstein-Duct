@@ -148,7 +148,12 @@ Please note that eveen the Ender 3 S1 uses a different plate which doesn't have 
 
 ### Changelog:
 
+08.02.2023: Fix of the V6 mounts
+
 05.02.2023: Some fixes:
+    
     - 5015 holder got an additinal hole to fit the Ender 3 V2 mounting holes
+    
     - Overhang on the 5015 holder is less steep now, makes printing easier.
+
 11.12.2022: Initial Release 
