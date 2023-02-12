@@ -37,7 +37,7 @@ Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonf
     4. Bondtech - LGX Lite
     5. Triangelab - TBG Lite
 
-Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder), [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder), [Orbiter V2.0](https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
 
 #### Hardware
     1. BL-Touch and Clones
