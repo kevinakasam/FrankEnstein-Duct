@@ -1,9 +1,9 @@
 # FrankEnstein-Duct
-*Frankenstein also known as Frank Enstein is a light weight fanduct for the Ender 3 or similar printers. It adds a 5015 blower fan and is also compatible with a wide range of Hotends and Extruders.*
+*Frankenstein also known as Frank Enstein is a light weight fanduct for the Ender 3 or similar printers (Not the E3 V2!). It adds a 5015 blower fan and is also compatible with a wide range of Hotends and Extruders.*
 
 ### Don't we have enough fan ducts for the Ender 3? Yet another one...?
 
-Yes, another one! And I'll tell you why. Frank is also known as Frankenstein because it's not beautiful or aesthetic (I like the look a lot, though), but is reduced to sheer fun. There is no plastic that is not really necessary. This makes Frank very lightweight, but also quick to print and easy to repair. The simplicity of the duct allows for a very wide range of hotends and extruders, as there is no plastic to get in the way. With only 4 printed parts you get a new powerful duct for your Ender 3!
+Yes, another one! And I'll tell you why. Frank is also known as Frankenstein because it's not beautiful or aesthetic (I like the look a lot, though), but is reduced to sheer fun. There is no plastic that is not really necessary. This makes Frank very lightweight, but also quick to print and easy to repair. The simplicity of the duct allows for a very wide range of hotends and extruders, as there is no plastic to get in the way. With only 4 printed parts you get a new powerful duct for your Ender 3! (Not the E3 V2!)
 
 <img src="Pictures/frankenstein.png" width="49%"/> <img src="Pictures/2.1.png" width="49%"/>
 
@@ -152,7 +152,7 @@ Please note that eveen the Ender 3 S1 uses a different plate which doesn't have 
 
 05.02.2023: Some fixes:
     
-    - 5015 holder got an additinal hole to fit the Ender 3 V2 mounting holes
+    - ~~5015 holder got an additinal hole to fit the Ender 3 V2 mounting holes~~ That didn't work
     
     - Overhang on the 5015 holder is less steep now, makes printing easier.
 
