@@ -3,8 +3,8 @@
 
 Extruder        |  Tested?
 :-------------------------:|:-------------------------:
-Sherpa Mini  |   :heavy_check_mark:
-Sherpa Mini + Filament Sensor |   :heavy_check_mark:
+Sherpa Mini  |   :x:
+Sherpa Mini + Filament Sensor |   :x:
 Orbiter V2.0 |   :x:
 
 #### Filament Sensor
