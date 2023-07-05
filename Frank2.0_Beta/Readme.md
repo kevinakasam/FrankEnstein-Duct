@@ -6,6 +6,12 @@ This folder is to store all the Beta files, do not print this without the inform
 
 #### Updates
 
+05.07.2023: BL-Touch, stock MK8 hotend, LGX Lite and ADXL
+- Added a mount to use a BL Touch (the holes on the plate can also be use used to use a permamntly mounted hidden ADXL)
+- Added a mount for the stock MK8 hotend
+- Added a mount for the LGX Lite
+- Added a mount for an ADXL sensor - these mount to the front part of the Hotend mount, so you will have to reprint that part to use it
+
 02.07.2023: Overlap fix + Dragon
 - Fixed the little overlap between the extruder mounts and the hotendmounts on the rear screw point
 - Added a mount for the Phaetus Dragon
@@ -19,6 +25,7 @@ This folder is to store all the Beta files, do not print this without the inform
 A very Draft BOM, which gives you a rough estimation of parts you need:
 
 ##### Common
+- 8x M3 heat insert (3x5x4mm - standard ones)
 - 4x M3x35mm screw (main screws that hold everything together and to the plate)
 - 2x M3x18mm (can be also 16mm or 20mm long, these are to mount the extruder mount to the assembly)
 - 4x M3x12mm (to mount the 3010 fan, if you want to use a 4010, you need extra 4x M3x8mm to mount the adapter)

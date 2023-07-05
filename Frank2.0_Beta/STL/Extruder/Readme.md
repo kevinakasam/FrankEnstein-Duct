@@ -6,6 +6,7 @@ Extruder        |  Tested?
 Sherpa Mini  |   :x:
 Sherpa Mini + Filament Sensor |   :x:
 Orbiter V2.0 |   :x:
+LGX Lite |   :x:
 
 #### Filament Sensor
 
