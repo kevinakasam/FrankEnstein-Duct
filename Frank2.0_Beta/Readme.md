@@ -6,6 +6,11 @@ This folder is to store all the Beta files, do not print this without the inform
 
 #### Updates
 
+07.07.2023
+- Added a mount for the Phaetus Dragongly BMO
+- Added a mount for the Sherpa Mini with the K-Mount
+- Modified the left 4010 holder to fit the Sherpa Mini K-Mount
+
 05.07.2023: BL-Touch, stock MK8 hotend, LGX Lite and ADXL
 - Added a mount to use a BL Touch (the holes on the plate can also be use used to use a permamntly mounted hidden ADXL)
 - Added a mount for the stock MK8 hotend
