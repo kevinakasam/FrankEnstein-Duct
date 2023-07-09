@@ -6,6 +6,9 @@ This folder is to store all the Beta files, do not print this without the inform
 
 #### Updates
 
+09.07.2023
+- Fixed an overhang issue with the back of the hotend mounts 
+
 07.07.2023
 - Added a mount for the Phaetus Dragongly BMO
 - Added a mount for the Sherpa Mini with the K-Mount
