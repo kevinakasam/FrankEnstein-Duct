@@ -6,6 +6,12 @@ This folder is to store all the Beta files, do not print this without the inform
 
 #### Updates
 
+16.07.2023
+- Fixed an overhang issue with the back of the Dragon, Stock and TR6 hotend mounts and the part cooling fan holders
+- Added 5015 fan support (dual setup, single fan and LED Duct will be added later)
+- Added Rapido UHF, this will be improved soon, maybe wait printing this but it works
+- Extruder mounts are splitted in normal and highflow. Aside the Rapido every hotend uses the normal ones
+
 09.07.2023
 - Fixed an overhang issue with the back of the hotend mounts 
 
