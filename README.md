@@ -13,7 +13,7 @@ Yes, another one! And I'll tell you why. Frank is also known as Frankenstein bec
 
 ### Supported Hotends, Extruders and additional Hardware
 
-This section lists all compatible Hotends and Extruder. If you're missing your hotend or extruder, feel free to post a request for that on my Discord. Let us create the first Fan Duct, that support <i>almost*</i> **everything**! (*Please not the Limitations section below)
+This section lists all compatible Hotends and Extruder. If you're missing your hotend or extruder, feel free to post a request for that on my Discord. Let us create the first Fan Duct, that support <i>almost*</i> **everything**! (*Please note the Limitations section below)
 
 #### Hotends
     1.  Stock Mk8 
