@@ -6,6 +6,14 @@ This folder is to store all the Beta files, do not print this without the inform
 
 #### Updates
 
+14.08.2023: Finally another update
+- Fixed the 5015 and hotendmount overlap (Thanks hawk16zz)
+- Fixed the BL Touch Mount and hotendmount overlap (Thanks hawk16zz)
+- Bl-Touch Mount should now be also compatible with the CR-Touch
+- Added 5015 LED Ducts
+- Added a new 4010 Adapter with an included ADXL Mount since the ones in the hotend mount are blocked with the adapter (Thanks Takus)
+
+
 16.07.2023
 - Fixed an overhang issue with the back of the Dragon, Stock and TR6 hotend mounts and the part cooling fan holders
 - Added 5015 fan support (dual setup, single fan and LED Duct will be added later)
