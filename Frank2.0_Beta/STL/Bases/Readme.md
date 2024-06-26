@@ -5,6 +5,7 @@ Base        |  Tested?
 :-------------------------:|:-------------------------:
 Ender 3 Plate  |   :heavy_check_mark: (With Ender 3 V1)
 MGN12H |   :x: (available in the CAD)
+MGN9H |   :x:
 
 #### Ender 3 V2
 
