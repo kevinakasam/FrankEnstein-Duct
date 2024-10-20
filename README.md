@@ -1,161 +1,99 @@
-# FrankEnstein-Duct
-*Frankenstein also known as Frank Enstein is a light weight fanduct for the Ender 3 or similar printers (Not the E3 V2!). It adds a 5015 blower fan and is also compatible with a wide range of Hotends and Extruders.*
+## Welcome to the release version of the FrankEnstein V2 Toolhead!
 
-**Frank 2.0 will be reeased soon! Maybe you want to wait with printing till then. Join the Discord for more information**
+As the brainchild of KevinAKASam and successor to the orginal Frank toolhead, Frank 2 builds upon it's predecessor by being even more modular with support for a wide vareity of hotends and extruders for the Ender 3 and similar with its carriage plate mount as well as as any printer with a front MGN12H linear rail (with some tweaking depending on the printer). Frank 2 features double sided dual fan cooling for either 4010 or 5015 blower fans and well as the option of either 3010 or 4010 fans (with printed adapter) for hotend cooling. The entire tool head is held together securely by 4 screws to the mount and 2 from the extruder mount for easy assembly and disassembly. As in Frank 1, Frank 2 also uses standard Voron spec heat set inserts (M3x5x4) to ensure the longevity of your printed parts while assembling and dissaembling.
 
-### Don't we have enough fan ducts for the Ender 3? Yet another one...?
+[![Frank V2 using the stock Ender hotend with the Papilio Lite, dual 4010 part cooling, and 3010 hotend cooling](./.images/FrankV2_Stock_Pap_4010_(512).png)](./.images/FrankV2_Stock_Pap_4010.png)
 
-Yes, another one! And I'll tell you why. Frank is also known as Frankenstein because it's not beautiful or aesthetic (I like the look a lot, though), but is reduced to sheer fun. There is no plastic that is not really necessary. This makes Frank very lightweight, but also quick to print and easy to repair. The simplicity of the duct allows for a very wide range of hotends and extruders, as there is no plastic to get in the way. With only 4 printed parts you get a new powerful duct for your Ender 3! (Not the E3 V2!)
+<dl>
+<dt>Supported Hotends:</dt>
+<dd>Dragon</dd>
+<dd>Dragonfly BMO</dd>
+<dd>Dragonfly BMS (7 fin)</dd>
+<dd>Spider Pro</dd>
+<dd>Spider V2</dd>
+<dd>Stock Ender 3 (Creality Mk8)</dd>
+<dd>Triangle Labs TR6</dd>
+<dd>TZ V6</dd>
+<dd><em>and any hotend that uses one of the above mounting patterns...</em></dd>
 
-<img src="Pictures/frankenstein.png" width="49%"/> <img src="Pictures/2.1.png" width="49%"/>
+<dt>Supported Extruders:</dt>
+<dd>Bowden</dd>
+<dd>LGX Lite</dd>
+<dd>Orbiter 1.5</dd>
+<dd>Orbiter 2.0</dd>
+<dd>Papilio</dd>
+<dd>Sherpa Mini (with or without K Face)</dd>
+<dd><em>and any extruder that uses one of the above mounting patterns...</em></dd>
+</dl>
 
----
+#### Bill of Materials
 
-### Supported Hotends, Extruders and additional Hardware
+| Item                             | Quantity                       |   |
+|----------------------------------|--------------------------------|---|
+| **For Carriage Plate Base:**     |                                |   |
+|  Voron spec heatset insert       | x6 (x7 for E3 V2 plate)        |   |
+|  M3x8 SHCS                       | x2                             |   |
+|  For BL/CR Touch Mount:          |                                |   |
+|   M2x8mm SHCS                    | x2                             |   |
+|                                  |                                |   |
+| **For MGN12H Base:**             |                                |   |
+|  300mm MGN12H Linear Rail        | x1                             |   |
+|  Voron spec heatset insert       | x10                            |   |
+|  M3x4mm or 5mm SHCS              | x4                             |   |
+|  M3x35mm BHCS (prefered) or SHCS | x2                             |   |
+|  **For Cable mount:**            |                                |   |
+|   M3x10mm SHCS                   | x2                             |   |
+|  **For Klack Mount:**            |                                |   |
+|   M3x6mm SHCS                    | x2                             |   |
+|                                  |                                |   |
+| **For Hotend Mount:**            |                                |   |
+|  Hotend of choice                | x1                             |   |
+|  Voron spec heatset insert       | x8 (or x10 for some hotends)   |   |
+|  Hotend mounting screws          | Varies                         |   |
+|  M3x35mm SHCS                    | x4                             |   |
+|  **For 3010 and 4010 Cooling:**  |                                |   |
+|   M3x12mm SHCS                   | x4                             |   |
+|  **For 4010 fan adapter:**       |                                |   |
+|   M3x8mm SHCS                    | x4                             |   |
+|   Voron spec heatset insert      | x4                             |   |
+|                                  |                                |   |
+| **For Extruder Mount:**          |                                |   |
+|  Extruder of choice              | x1                             |   |
+|  Voron spec heatset insert       | x2 to x4 depending on extruder |   |
+|  M3x20mm SHCS or BHCS            | x2 (non-LGX Lite)              |   |
+|   M3x8mm SHCD or BHCS            | x2 (LGX Lite ONLY)             |   |
+|  Extruder mounting screws        | Varies                         |   |
+|                                  |                                |   |
+| **For Part Cooling:**            |                                |   |
+|  **For Dual 4010:**              |                                |   |
+|   4010 blower fan                | x2                             |   |
+|   M2x8mm SHCS                    | x6                             |   |
+|   M2x10mm SHCS                   | x2                             |   |
+|   M2 Washer                      | x2                             |   |
+|  **For Dual 5015:**              |                                |   |
+|   5015 blower fan                | x2                             |   |
+|   Voron spec heatset insert      | x6                             |   |
+|   M3x8mm SHCS                    | x2                             |   |
+|   M3x20mm SHCS                   | x4                             |   |
+|   M3 Washer                      | x4                             |   |
 
-This section lists all compatible Hotends and Extruder. If you're missing your hotend or extruder, feel free to post a request for that on my Discord. Let us create the first Fan Duct, that support <i>almost*</i> **everything**! (*Please not the Limitations section below)
+#### Print Settings: The Magic 5
 
-#### Hotends
-    1.  Stock Mk8 
-    2.  Phaetus - Dragonfly BMS     (6 anf 7 fin version (see below))
-    3.  Phaetus - Dragonfly BMO     (with V6 mount, rigid mount will be added soon)
-    4.  Phaetus - Dragon            (Standard Flow and High Flow)
-    5.  Phaetus - Dropeffect XG
-    6.  Phaetus - Rapido HF/UHF     (not public yet but available on my Discord)
-    7.  E3D - V6
-    8.  E3D - V6 Vulcano
-    9.  E3D - Revo 6
-    10.  E3D - Revo Micro
-    11. E3D - Revo Voron
-    12. Haldis - Red Lizard         (with stock version)
-    13. Creality - Spider Hotend    (with BMS 7 version)
-    
-Hotends links: [Dragonfly BMS](https://www.phaetus.com/dragonfly-bms/), [Dragonfly BMO](https://www.phaetus.com/dragonfly-bmo/), [Dragon](https://www.phaetus.com/dragon-st/), [Dropeffect XG](https://dropeffect.phaetus.com/products/xg-hotend), [V6](https://e3d-online.com/products/v6-all-metal-hotend), [V6 Vulcano](https://e3d-online.com/products/volcano-hotend), [Revo 6](https://e3d-online.com/products/revo-six), [Revo Micro](https://e3d-online.com/products/revo-micro), [Revo Voron](https://e3d-online.com/products/revo-voron), [Red Lizard](https://aliexpress.com/item/1005003366657998.html)
+```
+Infill:
+* 55%
+Walls/Perimeters:
+* 5
+Top Layers:
+* 5
+Bottom Layers:
+* 5
+```
 
-#### Extruders
-    1. Bowden extruders             (stock or any replacement you're using)
-    2. Annex's - Sherpa Mini        (With adapter also Sherpa Micro)
-    3. Róbert's - Orbiter V2.0
-    4. Bondtech - LGX Lite
-    5. Triangelab - TBG Lite
+Not finding exactly what you need? Check out [User Mods](./User_Mods) to see if it's been made or if it hasn't feel free to design it and request a pull in User Mods!
 
-Extruder links: [Sherpa Mini](https://www.https://github.com/Annex-Engineering/Sherpa_Mini-Extruder), [Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder), [Orbiter V2.0](https://www.https://orbiterprojects.com/orbiter-v2-0/), [LGX Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/), [TBG Lite](https://www.aliexpress.com/item/1005003908281100.html)
+Have a question or just want to hang out with some cool people? [Join our discord here!](https://discord.gg/xqpKrxt9FC)
 
-#### Hardware
-    1. BL-Touch and Clones
-    2. ADXL345-Accelerometer (for Klipper and RepRap) 
+_Build guide coming..._
 
-Hardware links: [BL-Touch](https://www.antclabs.com/bltouch-v3), [ADXL345 Sensor (Klipper)](https://www.klipper3d.org/Measuring_Resonances.html)
-
----
-
-### Bill of Material: Hardware you need
-<table>
-    <tr>
-        <td>Component</td>
-        <td>Quantitiy</td>
-        <td>Reuse from Printer</td>
-        <td>Notes</td>
-    </tr>
-    <tr>
-        <td>5015 Blower fan</td>
-        <td>1</td>
-        <td>No</td>
-        <td>For ABS machines Winsinn works okay. Otherwise consider Delta, Sunon or Gdstime. </td>
-    </tr>
-    <tr>
-        <td>4010 Axial Fan</td>
-        <td>1</td>
-        <td>Yes</td>
-        <td>You can reuse the stock fan. You can also use 4020 fans, that's up to your preference.</td>
-    </tr>
-    <tr>
-        <td>M3x16mm</td>
-        <td>4</td>
-        <td>No</td>
-        <td>To mount the 4010 and the fanguide to the 4010</td>
-    </tr>
-    <tr>
-        <td>M3x18mm</td>
-        <td>2</td>
-        <td>No</td>
-        <td>To mount the 5015.</td>
-    </tr>
-    <tr>
-        <td>M3x12mm</td>
-        <td>2</td>
-        <td>No</td>
-        <td>To mount the Cable Clip. BL-Touch mount needs M3x16mm.</td>
-    </tr>
-    <tr>
-        <td>M3x8mm</td>
-        <td>2</td>
-        <td>Yes/No</td>
-        <td>To mount the 5015 holder. The stock ones have only a very few mm to grab, 8mm is better.</td>
-    </tr>
-    <tr>
-        <td>M3x5x4mm heat inserts</td>
-        <td>10</td>
-        <td>No</td>
-        <td></td>
-    </tr>
-</table>
-
----
-
-### STL's (3mf) you need:
-The STL folder has 3 sub folders which stores the files you need to build this duct:
-    - **CommonAll**: Printed Parts that are common with all configurations. Currently this is only the BL-Touch mount.
-    - **Hotend**:    Each hotend has it own folder, just pick the files for your hotend.
-    - **Extruder**:  Just pick the extruder you want to use and then the hotend. 
-You should end up with a Duct, a 5015 holder (+ clamp for V6) and a fan guide. The LGX Lite and the TBG Lite also add a sperate mount, same for the BL-Touch.
-**Print settings: 55% Infill, 5 Walls,Tops and Bottoms**
-
-#### Extras
-The Extras folder contain some specials you can add to the fan duct if you want, but of course these aren't needed. Just read the details for each extra.
-
-### Credits
-Thanks to all the awesome Users from my Discord that tested this duct over and over angain. Special thanks to Oldcrazy for all his ideas and mods. Thanks to Thomas for the name.
-
----
-
-### Limitations
-Even though this Duct has a very high range of supported Hotends and extruders, there're still some limitations, due to the design or the time I had spent on this design
-
-#### 1. Fit's only the stock plate
-    
-##### a) MGN:</dt>
-- Oldcrazy from my Discord made a MGN version. Will be uploaded soon - you can get it from my Discord in the meantime.
-            
-##### b) Non-Ender 3 Printers:
-- This Duct resuses the hotend-mounting-standoffs aand the two M3-thread holes on the left where the stock cover is attached to. If your printer doesn't have these you can get a x-plate like the Ender 3 one very cheap in [Ali](aliexpress.com/item/1005001315276573.html?) or with some luck second hand locally.
-Please note that eveen the Ender 3 S1 uses a different plate which doesn't have the required holes.
-            
-            
-#### 2. No support for Mosquito or mosquito clone
-
-- Aside the fact I want support Slice for [reasons](https://www.reddit.com/r/VORONDesign/comments/rpyqpq/voronslice_beef/), the heaterblock of the Mosquito is just too big, and won't allow any cooling from the front (the duct would be way too far away for any cooling effect). 
-        
-#### 3. Two side cooling
-    
-- I already got some requests for a dual 5015 version, which would allow 3 or 4 sided cooling, but in my opionon that would be an overkill. With the speeds we reach with the Ender 3 a single 5015 is more than enough. I want to explain why:
-        
-##### a) Print speeds:
-
-- I know fast printing got very popular, but even with 300 or 400mm/sec print speed the single 5015 is more than enough. Even though you print with high speeds, external and briging parameters are still kinda slow. We all fo fast on the infill but not for the externals because that results in poor quality and printing tolerances. Less cooling on the infill also means better layer adheasion.
-            
-##### b) 5015 ≠ 5015:
-
-- There're many brands of 5015 fans out there. When you look for a 5015 on Amazon Winsinn is probably the first result you get. Before you install a dual 5015 with two Winsinn fans, just build a proper single 5015 setup. Winsinn fans are very weak, while Delta or Sunonfans are pretty much the best you can get. Somewhere inbetween are fans by GDstime. In the end you have to pick a fan that fits your requirements. I print ABS only so I don't need much cooling and also use a Winsinn. If you print a lot of PLA you should consider one of the just named brands.
-
-### Changelog:
-
-08.02.2023: Fix of the V6 mounts
-
-05.02.2023: Some fixes:
-    
-    - ~~5015 holder got an additinal hole to fit the Ender 3 V2 mounting holes~~ That didn't work
-    
-    - Overhang on the 5015 holder is less steep now, makes printing easier.
-
-11.12.2022: Initial Release 
+[![An exploded view of the above Frank](./.images/FrankV2_Stock_Pap_4010_exp_(512).png)](./.images/FrankV2_Stock_Pap_4010_exp.png)
