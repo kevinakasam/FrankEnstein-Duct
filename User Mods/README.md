@@ -10,7 +10,6 @@ Update the following table with the information about your mod:
 - Your name
 - A link to your sub-folder
 - A short description of your mod
-- The extruder compatibility. Use `:heavy_check_mark:` for :heavy_check_mark:,`:x:` for :x: and `:grey_question:` for :grey_question:
 
 like so:
 `
