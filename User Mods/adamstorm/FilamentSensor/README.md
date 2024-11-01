@@ -1,6 +1,6 @@
 A simple filament sensor added to the extruder mount. The base file used was the Papilio extruder mount, but that mount has so many mounting points, many other extruders should work for it too.
 
-This extruder mount is 4mm taller than the normal version to make room for the sensor.
+This extruder mount is 4mm taller than the normal version to make room for the sensor. You will need to have two small sections of PTFE tubing between the extruder and the hotend since a single PTFE tube is not feasible with a switch. Getting the right fit/length is a little tricky but patience and a sharp blade should be enough for success.
 
 BOM:
 - D2F microswitch (or similar), doesn't need to be super accurate - we're not setting z-position here
