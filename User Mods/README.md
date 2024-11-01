@@ -17,7 +17,7 @@ like so:
 
 | Creator | Mod title | Description |
 | --- | --- | --- |
-| adamstorm | [Filament Sensor](./adamstorm/FilamentSensor)| A simple filament sensor in the extruder mount for Papilio/Sherpa mounting pattern extruders |
+| adamstorm | [Filament Sensor](./adamstorm/Filament Sensor)| A simple filament sensor in the extruder mount for Papilio/Sherpa mounting pattern extruders |
 | SampleMan | [Sample](./SampleMan/Sample) | This is a sample entry |
 
 ## How to create a pull request 
