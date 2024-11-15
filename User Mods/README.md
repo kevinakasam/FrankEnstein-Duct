@@ -18,6 +18,7 @@ like so:
 | Creator | Mod title | Description |
 | --- | --- | --- |
 | adamstorm | [Filament Sensor](<./adamstorm/Filament Sensor>)| A simple filament sensor in the extruder mount for Papilio/Sherpa mounting pattern extruders |
+|           | [Camera Mount](<./adamstorm/Camera Mount>)| Add a nozzle camera to your Ender! |
 | SampleMan | [Sample](./SampleMan/Sample) | This is a sample entry |
 
 ## How to create a pull request 
