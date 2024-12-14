@@ -33,8 +33,8 @@ The same as normal mounts
 <img src="./Images/Papilio_Lite_2.png"/>
 
 #### WWMBG
-<img src="./Images/WWMBG_1.png"/>
-<img src="./Images/WWMBG_2.png"/>
+<img src="./Images/WWBMG_1.png"/>
+<img src="./Images/WWBMG_2.png"/>
 
 #### Protoxtruder
 <img src="./Images/Protoxtruder_1.png"/>
