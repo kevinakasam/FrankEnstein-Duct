@@ -14,7 +14,7 @@ As the brainchild of KevinAKASam and successor to the orginal Frank toolhead, Fr
 <dd>Stock Ender 3 (Creality Mk8)</dd>
 <dd>Triangle Labs TR6</dd>
 <dd>TZ V6</dd>
-<dd><em>and any hotend that uses one of the above mounting patterns...</em></dd>
+<dd><em>and most hotends that use one of the above mounting patterns...</em></dd>
 
 <dt>Supported Extruders:</dt>
 <dd>Bowden</dd>
@@ -23,59 +23,60 @@ As the brainchild of KevinAKASam and successor to the orginal Frank toolhead, Fr
 <dd>Orbiter 2.0</dd>
 <dd>Papilio</dd>
 <dd>Sherpa Mini (with or without K Face)</dd>
-<dd><em>and any extruder that uses one of the above mounting patterns...</em></dd>
+<dd><em>and most extruders that use one of the above mounting patterns...</em></dd>
 </dl>
 
 #### Bill of Materials
 
-| Item                             | Quantity                       |   |
-|----------------------------------|--------------------------------|---|
-| **For Carriage Plate Base:**     |                                |   |
-|  Voron spec heatset insert       | x6 (x7 for E3 V2 plate)        |   |
-|  M3x8 SHCS                       | x2                             |   |
-|  For BL/CR Touch Mount:          |                                |   |
-|   M2x8mm SHCS                    | x2                             |   |
-|                                  |                                |   |
-| **For MGN12H Base:**             |                                |   |
-|  300mm MGN12H Linear Rail        | x1                             |   |
-|  Voron spec heatset insert       | x10                            |   |
-|  M3x4mm or 5mm SHCS              | x4                             |   |
-|  M3x35mm BHCS (prefered) or SHCS | x2                             |   |
-|  **For Cable mount:**            |                                |   |
-|   M3x10mm SHCS                   | x2                             |   |
-|  **For Klack Mount:**            |                                |   |
-|   M3x6mm SHCS                    | x2                             |   |
-|                                  |                                |   |
-| **For Hotend Mount:**            |                                |   |
-|  Hotend of choice                | x1                             |   |
-|  Voron spec heatset insert       | x8 (or x10 for some hotends)   |   |
-|  Hotend mounting screws          | Varies                         |   |
-|  M3x35mm SHCS                    | x4                             |   |
-|  **For 3010 and 4010 Cooling:**  |                                |   |
-|   M3x12mm SHCS                   | x4                             |   |
-|  **For 4010 fan adapter:**       |                                |   |
-|   M3x8mm SHCS                    | x4                             |   |
-|   Voron spec heatset insert      | x4                             |   |
-|                                  |                                |   |
-| **For Extruder Mount:**          |                                |   |
-|  Extruder of choice              | x1                             |   |
-|  Voron spec heatset insert       | x2 to x4 depending on extruder |   |
-|  M3x20mm SHCS or BHCS            | x2 (non-LGX Lite)              |   |
-|   M3x8mm SHCD or BHCS            | x2 (LGX Lite ONLY)             |   |
-|  Extruder mounting screws        | Varies                         |   |
-|                                  |                                |   |
-| **For Part Cooling:**            |                                |   |
-|  **For Dual 4010:**              |                                |   |
-|   4010 blower fan                | x2                             |   |
-|   M2x8mm SHCS                    | x6                             |   |
-|   M2x10mm SHCS                   | x2                             |   |
-|   M2 Washer                      | x2                             |   |
-|  **For Dual 5015:**              |                                |   |
-|   5015 blower fan                | x2                             |   |
-|   Voron spec heatset insert      | x6                             |   |
-|   M3x8mm SHCS                    | x2                             |   |
-|   M3x20mm SHCS                   | x4                             |   |
-|   M3 Washer                      | x4                             |   |
+| Item                             					| Quantity                        |   |
+|---------------------------------------------------|---------------------------------|---|
+| **For Carriage Plate Base:**     					|                                 |   |
+| &nbsp;&nbsp;Voron spec heatset insert       		| x6 (x7 for E3 V2 plate)         |   |
+| &nbsp;&nbsp;M3x8 SHCS                       		| x2                              |   |
+| &nbsp;&nbsp;**For BL/CR Touch Mount:**          	|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M2x8mm SHCS               | x2                              |   |
+|                                  					|                                 |   |
+| **For MGN12H Base:**             					|                                 |   |
+| &nbsp;&nbsp;300mm MGN12H Linear Rail        		| x1                              |   |
+| &nbsp;&nbsp;Voron spec heatset insert       		| x10                             |   |
+| &nbsp;&nbsp;M3x4mm or 5mm SHCS              		| x4                              |   |
+| &nbsp;&nbsp;M3x35mm BHCS (preferred) or SHCS		| x2                              |   |
+| &nbsp;&nbsp;**For Cable mount:**            		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x10mm SHCS              | x2                              |   |
+| &nbsp;&nbsp;**For Klack Mount:**            		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x6mm SHCS               | x2                              |   |
+|                                  					|                                 |   |
+| **For Hotend Mount:**            					|                                 |   |
+| &nbsp;&nbsp;Hotend of choice                		| x1                              |   |
+| &nbsp;&nbsp;Voron spec heatset insert       		| x8 (or x10 for some hotends)    |   |
+| &nbsp;&nbsp;Hotend mounting screws          		| Varies (Should come with hotend)|   |
+| &nbsp;&nbsp;M3x35mm SHCS                   	    | x4                              |   |
+| &nbsp;&nbsp;**For 3010 and 4010 Cooling:** 		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;3010 or 4010 axial fan	| x1 (Ball bearing preferred)	  |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x12mm SHCS              | x4                              |   |
+| &nbsp;&nbsp;**For 4010 fan adapter:**       		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x8mm SHCS               | x4                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Voron spec heatset insert | x4                              |   |
+|                                 					|                                 |   |
+| **For Extruder Mount:**          					|                                 |   |
+| &nbsp;&nbsp;Extruder of choice              		| x1                              |   |
+| &nbsp;&nbsp;Voron spec heatset insert       		| x2 to x4 depending on extruder  |   |
+| &nbsp;&nbsp;M3x20mm SHCS or BHCS or         		| x2 (non-LGX Lite)               |   |
+| &nbsp;&nbsp;M3x8mm SHCD or BHCS             		| x2 (LGX Lite ONLY)              |   |
+| &nbsp;&nbsp;Extruder mounting screws        		| Varies (Mostly some amount of M3x6/8/10mms)|   |
+|                                  					|                                 |   |
+| **For Part Cooling:**            					|                                 |   |
+| &nbsp;&nbsp;**For Dual 4010:**              		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;4010 blower fan           | x2                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M2x8mm SHCS               | x6                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M2x10mm SHCS              | x2                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M2 Washer                 | x2                              |   |
+| &nbsp;&nbsp;**For Dual 5015:**              		|                                 |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;5015 blower fan           | x2                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Voron spec heatset insert | x6                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x8mm SHCS               | x2                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3x20mm SHCS              | x4                              |   |
+| &nbsp;&nbsp;&nbsp;&nbsp;M3 Washer                 | x4                              |   |
 
 #### Print Settings: The Magic 5
 
