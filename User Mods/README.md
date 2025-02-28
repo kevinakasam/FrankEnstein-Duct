@@ -19,6 +19,7 @@ like so:
 | --- | --- | --- |
 | adamstorm | [Filament Sensor](<./adamstorm/Filament Sensor>)| A simple filament sensor in the extruder mount for Papilio/Sherpa mounting pattern extruders |
 |           | [Camera Mount](<./adamstorm/Camera Mount>)| Add a nozzle camera to your Ender! |
+|			| [Sprite Extruder Mount](<./adamstorm/Sprite Extruder Mount>)| Extruder mount for the Creality Sprite extruder |
 | wight554 | [2510 Fan Dragon Mount](<./wight554/2510 Fan Dragon Mount>)| Hotend mount using 2510 fan for Dragon mount hotends |
 |           | [5015 HF Ducts](<./wight554/5015 HF Ducts>)| 5015 fan ducts for "HF sized" hotends |
 |           | [5015 UHF Ducts](<./wight554/5015 UHF Ducts>)| 5015 fan ducts for "UHF sized" hotends |
