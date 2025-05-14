@@ -27,6 +27,7 @@ like so:
 |           | [Klack HF](<./wight554/Klack HF>)| Klack dock and mount for "HF sized" hotends |
 |           | [Klack UHF](<./wight554/Klack UHF>)| Klack dock and mount for "UHF sized" hotends |
 |           | [PG7 Mount](<./wight554/PG7 Mount>)| PG7 Mount that's designed to be a bit more rigid |
+| n4t3y | [AIO 5015 Duct](link) | A combined mount for the 5015 fans with integrated duct instead of separately fixed |
 | SampleMan | [Sample](./SampleMan/Sample) | This is a sample entry |
 
 ## How to create a pull request 
