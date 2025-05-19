@@ -9,7 +9,8 @@ The mount is designed to be oriented in the slicer like this (grey element is in
 The bracket is held in place with a notch integrated into the mount, as well as the fan when it is installed, so there is no need for any additional hardware.
 
 <img src="./IMAGES/Bracket.png"/>
+
+The bracket should slide easily into the slot in the mount:
+
 <img src="./IMAGES/MountwBracket.png"/>
 <img src="./IMAGES/Assembled.png"/>
-
-
