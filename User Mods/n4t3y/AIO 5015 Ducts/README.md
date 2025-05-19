@@ -14,3 +14,13 @@ The bracket should slide easily into the slot in the mount:
 
 <img src="./IMAGES/MountwBracket.png"/>
 <img src="./IMAGES/Assembled.png"/>
+
+The additional material around the bracket may intrude a bit on the intake of the fan on the right hand side, but not a significant amount more than the original holder.
+
+Original Holder:
+
+<img src="./IMAGES/RHSOriginalHolder.png"/>
+
+AIO Mount:
+
+<img src="./IMAGES/RHSAIOMount.png"/>
