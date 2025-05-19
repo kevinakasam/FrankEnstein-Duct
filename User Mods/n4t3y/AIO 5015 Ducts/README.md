@@ -2,6 +2,8 @@ This mod combines the 5015 holder and duct into a single piece to aid with duct 
 
 The model is fully printable without supports, although the top side of the duct can come out stringy but will still work fine after removing the hanging filament.
 
+The LHS is the base printable file and to print the RHS, the mount and bracket should be mirrored in the slicer.
+
 The mount is designed to be oriented in the slicer like this (grey element is integrated support):
 
 <img src="./IMAGES/MountandDuct.png"/>
