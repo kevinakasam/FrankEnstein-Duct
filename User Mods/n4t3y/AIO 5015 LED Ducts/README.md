@@ -4,6 +4,6 @@ The model is fully printable without supports, although the top side of the duct
 
 The LHS is the base printable file and to print the RHS, the mount and bracket should be mirrored in the slicer.
 
-Orientation is the same as the base AIO Duct. Refer to the base AIO instructions [here](./n4t3y/AIO%205015%20Ducts/README.md).
+Orientation is the same as the base AIO Duct. Refer to the base AIO instructions [here](./n4t3y/AIO%205015%20Ducts/README.md) for printing instructions.
 
 <img src="./IMAGES/LED_Assembled.png"/>
