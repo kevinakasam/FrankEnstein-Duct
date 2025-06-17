@@ -6,3 +6,4 @@ The LHS is the base printable file and to print the RHS, the mount and bracket s
 
 Orientation is the same as the base AIO Duct. Refer to the base AIO instructions [here](https://github.com/n4t3y/FrankEnstein-Duct/blob/main/User%20Mods/n4t3y/AIO%205015%20Ducts/README.md).
 
+<img src="./IMAGES/LED_Assembled.png"/>
