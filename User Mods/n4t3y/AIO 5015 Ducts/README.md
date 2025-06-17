@@ -12,7 +12,7 @@ The bracket is held in place with a notch integrated into the mount, as well as 
 
 <img src="./IMAGES/Bracket.png"/>
 
-The bracket should slide easily into the slot in the mount:
+The bracket should slide easily into the slot in the mount (take note of orientation of bracket in the mount):
 
 <img src="./IMAGES/MountwBracket.png"/>
 <img src="./IMAGES/Assembled.png"/>
